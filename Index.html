@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Página inicial</title>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body >
+
+	<div id="menu">
+
+		<div class="itens"><a href="index.html"> Biografia </a></div>
+		<div class="itens"><a href="Portifolio.html"> Portifólio </a></div>
+		<div class="itens"><a href="Contatos.html"> Contatos </a></div>
+		
+	</div>
+
+	<div id="bio">
+
+	<p class="titulo"> 	Daniele Alves Reis</p>
+
+	<p class="texto">
+	Sou uma estudante de Análise e desenvolvimento de <br> sistemas, atuo com Front end e estou em busca de um <br> estágio. <br>
+	</p>
+
+	</div>
+
+</body>
+
+</html>

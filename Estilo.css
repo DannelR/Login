@@ -1,0 +1,121 @@
+
+
+/*Menu inicial*/
+
+body {
+	background-image: url('imagens/b2.png') ;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	}
+#menu {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	align-content: space-between;
+	font-size: 15px;
+}
+
+.itens {
+	margin: 5px;
+}
+
+a:link /*link não visitado*/ {
+	color: #73696b;
+	text-decoration: none;
+}
+
+a:visited {
+
+	color: #73696b;
+	text-decoration: none;
+
+}
+
+a:hover  /*link quando o usuário passa a mão sobre ele*/{
+
+	background: #b5969a;
+	color: #5a4848;
+}
+
+/*Fim menu inicial*/
+
+/* Inicio Página inicial */
+
+#bio {
+	text-align: center;
+	border: none;
+	margin-top: 80px;
+
+}
+
+
+.titulo{
+
+	color: #452226;
+	text-align: center;
+	text-decoration: none;
+	font-family: "serif;", Georgia;
+	font-size: 40px;
+
+}
+
+.texto{
+
+	color: #452e30;
+	font-family: "serif;", Georgia;
+	font-size: 25px;
+
+}
+
+/* Fim pág inicial */
+
+/* inicio projetos */
+
+form label,input,button{
+	margin: 5px;
+}
+
+.form-conf {
+	margin: 5px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	color:  #452226;
+	margin-top: 80px;
+	background: ;
+
+}
+
+/*fim projetos*/
+
+/*Inicio contatos*/
+
+p img{ 
+
+	margin: 3px; 
+
+}
+
+#contat {
+
+	color: #452226;
+	text-align: center;
+	text-decoration: bold;
+	font-family: "serif;", Georgia;
+	font-size: 15px;
+	margin-top: 80px;
+
+
+}
+
+div ´p, img {
+
+}
+
+
+/* Fim contatos */
